@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "../server/dist/",
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "allowJs": true,
+        "sourceMap": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "*": [
+                "../node_modules/"
+            ]
+        }
+    },
+    "include": [
+        "../server/src/index.ts"
+    ],
+    "files": [
+        "./types/express.d.ts"
+    ]
+}
